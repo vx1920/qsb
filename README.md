@@ -1,0 +1,2 @@
+# qsb
+Qt SQL Browser
