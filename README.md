@@ -1,6 +1,6 @@
-Python PyQt QtSQL Browser
-https://github.com/vx1920/qsb
+Python PyQt5 QtSQL SQL Browser Editor
 =============
+https://github.com/vx1920/qsb
 
 
 QSB (Qt Sql Browser) allows view/edit SQLite tables and definitions and run queries.
@@ -14,8 +14,12 @@ Main window has two sliders to make three panels:
  - Text Panel as right-lower panel.
 
 Show editable table data and table definitions (read-only, left or right click in Table List):
-![Screenshot](screenshots/TableData.png)
-![Screenshot](screenshots/TableInfo.png)
+
+![Screenshot](info/TableData.png)
+
+Right click in Table List will show table information:
+
+![Screenshot](info/TableInfo.png)
 
 Right click on data field for context menu to copy field data to/from Text Panel.
 
@@ -27,7 +31,9 @@ Execute Query
 ---------------
 Edit query in text panel under table, run from Database menu.
 Resulting read-only table will be shown:
-![Screenshot](screenshots/TableQuery.png)
+
+![Screenshot](info/TableQuery.png)
+
 In case of errors in query: TableView will be switched to TextView and error info will be shown.
 
 Add/Remove rows: use commands from Table menu.
